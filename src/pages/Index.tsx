@@ -56,6 +56,16 @@ const Index = () => {
             </div>
           ))}
         </div>
+
+        {/* Chess Link */}
+        <div className="mt-8 text-center">
+          <a 
+            href="/chess" 
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
+          >
+            🎮 Play 3D Chess
+          </a>
+        </div>
       </main>
 
       {/* Footer */}
